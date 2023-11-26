@@ -113,7 +113,21 @@ img {
     font-size: 0.9rem;
 }
 
+#projects {
+    text-align: center;
+    margin: 10rem auto;
+}
 
+.projects--container div {
+    width: 20rem;
+    margin: 2rem;
+    padding: 2rem;
+
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    border-radius: 10px;
+}
 
 #contact h2 {
     text-align: center;
@@ -152,7 +166,6 @@ form ul {
 }
 .button {
     padding: 1rem;
-
 
     color: white;
     font-weight: 600;
